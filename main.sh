@@ -34,8 +34,10 @@ case $znak in
         3) posta=3
         echo " Dziękuje za wybur zaczynamy grać"
         clear ;;
-
         
     esac
     echo "$posta"
+    
+    
+
 esac
