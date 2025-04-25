@@ -40,4 +40,6 @@ case $znak in
     
     
 
+    ./bos1.sh
+
 esac
