@@ -37,8 +37,18 @@ case $znak in
 
         if [ "$zycie" -le 0 ]; then
         echo "umarłeś koniec"
-        break
-        fi
+
+            read znak
+
+                if [ "$znak" = "bos" ]; then
+                echo "KODY"
+                ./bos2.sh
+                else
+                echo "Dowidzanie"
+                let zycie=$zycie-15
+                fi
+            break
+            fi
 
         if [ "$bos" -le 0 ]; then
         echo "umarłeś bos"
@@ -52,3 +62,4 @@ case $znak in
         
 
   
+
