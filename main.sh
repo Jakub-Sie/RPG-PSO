@@ -8,6 +8,7 @@ Jednak od kilku tygodni wioski na obrzeżach lasu są atakowane przez dziwne bes
 
 W tej sytuacji pojawiasz się Ty — młody wojownik, mag, złodziej (lub kimkolwiek gracz zdecyduje się być), który otrzymuje tajemnicze wezwanie od dawno zaginionego mentora. Zostajeś wciągnięty w wir wydarzeń, które mogą zadecydować o losie całego królestwa. "
 
+
 echo "Wybiesz 1 aby zacząć"
 echo "Wybierz 2 aby wyjść "
 
@@ -43,3 +44,4 @@ case $znak in
     ./bos1.sh
 
 esac
+
